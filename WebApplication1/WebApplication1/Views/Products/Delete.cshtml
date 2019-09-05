@@ -1,0 +1,56 @@
+﻿@model WebApplication1.Models.Product
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>商品の削除</h2>
+
+<h3>本当にこの商品の情報を削除しますか？</h3>
+<div>
+
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.商品番号)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.商品番号)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.商品名)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.商品名)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.価格)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.価格)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.生産地)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.生産地)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="削除ッ!!" class="btn btn-default" /> |
+            @Html.ActionLink("やっぱりやめた", "Index")
+        </div>
+    }
+</div>

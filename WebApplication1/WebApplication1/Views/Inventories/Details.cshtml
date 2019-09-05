@@ -1,0 +1,65 @@
+﻿@model WebApplication1.Models.Inventory
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>詳細情報</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.商品番号)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.商品番号)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.商品名)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.商品名)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.価格)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.価格)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.個数)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.個数)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.小計)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.小計)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.最終更新)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.最終更新)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("在庫数編集画面へ", "Edit", new { id = Model.商品番号 }) |
+    @Html.ActionLink("在庫管理画面へ戻る", "Index")
+</p>

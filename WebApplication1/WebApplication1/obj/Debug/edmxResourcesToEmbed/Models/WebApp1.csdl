@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="trdbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Inventory">
+    <Key>
+      <PropertyRef Name="商品番号" />
+    </Key>
+    <Property Name="商品番号" Type="Int32" Nullable="false" />
+    <Property Name="商品名" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="価格" Type="Int32" Nullable="false" />
+    <Property Name="個数" Type="Int32" />
+    <Property Name="小計" Type="Int32" />
+    <Property Name="最終更新" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="商品番号" />
+    </Key>
+    <Property Name="商品番号" Type="Int32" Nullable="false" />
+    <Property Name="商品名" Type="String" Nullable="false" />
+    <Property Name="価格" Type="Int32" Nullable="false" />
+    <Property Name="生産地" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="trdbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Inventory" EntityType="Self.Inventory" />
+    <EntitySet Name="Product" EntityType="Self.Product" />
+  </EntityContainer>
+</Schema>

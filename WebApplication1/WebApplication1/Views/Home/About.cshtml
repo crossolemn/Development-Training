@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "管理画面";
+}
+<h2>@ViewBag.Title</h2>
+
+<p>
+    @Html.ActionLink("商品管理システムへ", "index", new { id = UrlParameter.Optional, controller = "Products" })<br>
+    「新規商品を追加」から商品を登録します。<br>
+    登録した商品について、編集・詳細の確認・削除などの操作を各ボタンから行うことが出来ます。<br>
+    また、商品管理システムでの変更はすべて自動で在庫管理システムにも反映されます。
+</p>
+
+<p>
+    @Html.ActionLink("在庫管理システムへ", "index", new { id = UrlParameter.Optional, controller = "Inventories" })<br>
+    商品管理システムで追加した商品について、「在庫数入力」から在庫の登録、および管理を行います。<br>
+    それぞれの商品の小計が自動で表示されるほか、「詳細」ボタンで詳細情報の確認が行えます。
+</p>

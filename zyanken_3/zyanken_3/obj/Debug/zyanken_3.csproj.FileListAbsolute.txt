@@ -1,0 +1,14 @@
+C:\Users\ryo.kurosu\source\repos\zyanken_3\zyanken_3\bin\Debug\zyanken_3.exe.config
+C:\Users\ryo.kurosu\source\repos\zyanken_3\zyanken_3\bin\Debug\zyanken_3.exe
+C:\Users\ryo.kurosu\source\repos\zyanken_3\zyanken_3\bin\Debug\zyanken_3.pdb
+C:\Users\ryo.kurosu\source\repos\zyanken_3\zyanken_3\obj\Debug\zyanken_3.csprojAssemblyReference.cache
+C:\Users\ryo.kurosu\source\repos\zyanken_3\zyanken_3\obj\Debug\zyanken_3.csproj.CoreCompileInputs.cache
+C:\Users\ryo.kurosu\source\repos\zyanken_3\zyanken_3\obj\Debug\zyanken_3.exe
+C:\Users\ryo.kurosu\source\repos\zyanken_3\zyanken_3\obj\Debug\zyanken_3.pdb
+C:\Users\ryo.kurosu\Desktop\tgit-repo\zyanken_3\zyanken_3\bin\Debug\zyanken_3.exe.config
+C:\Users\ryo.kurosu\Desktop\tgit-repo\zyanken_3\zyanken_3\bin\Debug\zyanken_3.exe
+C:\Users\ryo.kurosu\Desktop\tgit-repo\zyanken_3\zyanken_3\bin\Debug\zyanken_3.pdb
+C:\Users\ryo.kurosu\Desktop\tgit-repo\zyanken_3\zyanken_3\obj\Debug\zyanken_3.csprojAssemblyReference.cache
+C:\Users\ryo.kurosu\Desktop\tgit-repo\zyanken_3\zyanken_3\obj\Debug\zyanken_3.csproj.CoreCompileInputs.cache
+C:\Users\ryo.kurosu\Desktop\tgit-repo\zyanken_3\zyanken_3\obj\Debug\zyanken_3.exe
+C:\Users\ryo.kurosu\Desktop\tgit-repo\zyanken_3\zyanken_3\obj\Debug\zyanken_3.pdb

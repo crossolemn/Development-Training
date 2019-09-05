@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="trdbModelStoreContainer" CdmEntityContainer="trdbEntities">
+    <EntitySetMapping Name="Inventory">
+      <EntityTypeMapping TypeName="trdbModel.Inventory">
+        <MappingFragment StoreEntitySet="Inventory">
+          <ScalarProperty Name="商品番号" ColumnName="商品番号" />
+          <ScalarProperty Name="商品名" ColumnName="商品名" />
+          <ScalarProperty Name="価格" ColumnName="価格" />
+          <ScalarProperty Name="個数" ColumnName="個数" />
+          <ScalarProperty Name="小計" ColumnName="小計" />
+          <ScalarProperty Name="最終更新" ColumnName="最終更新" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Product">
+      <EntityTypeMapping TypeName="trdbModel.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="商品番号" ColumnName="商品番号" />
+          <ScalarProperty Name="商品名" ColumnName="商品名" />
+          <ScalarProperty Name="価格" ColumnName="価格" />
+          <ScalarProperty Name="生産地" ColumnName="生産地" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
